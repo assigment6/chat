@@ -24,7 +24,7 @@ public class Chat extends ReceiverAdapter {
     public void start(JChannel ch) throws Exception {
         channel=ch;
         channel.setReceiver(this);
-        channel.connect("ChatCluster");
+        channel.connect("Cha");
         eventLoop();
         channel.close();
     }
